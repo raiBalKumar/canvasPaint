@@ -56,6 +56,11 @@ margin-bottom: 5px;
 body{
     /* overflow:hidden; */
 }
+.size {
+    display: flex;
+    flex-direction: column;
+    
+}
 /* .icon {
     width : 30px;
     height: 30px;
