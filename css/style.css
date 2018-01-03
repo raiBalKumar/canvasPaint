@@ -4,11 +4,11 @@
 .canvas{
     border:2px rgb(102, 93, 93) solid;
     position:absolute;
-    bottom:2%;
-    right:1%;
+    bottom: 0px;
+    right:0%;
     width: 81%;
-    height: 80%;
-    border-radius: 5px;
+    height: 83.5%;
+  
   
     
 }
@@ -26,19 +26,35 @@
 .tools {
     border:2px rgb(102, 93, 93) solid;
     background: #464646;
-    position:absolute;
-    left: 1%;
-    bottom: 2%;
-    width: 17%;
-    height: 80%;
-    border-radius: 5px;  
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    width: 19%;
+    height: 83.5%;
+  
+    margin-right: 60px;
     
 }
+
+
+.row {
+background: #464646;
+}
+
+.btn {
+margin-bottom: 5px;
+
+}
+
+
 #uploadFile {
     position: absolute;
-    margin-left: 5px;
+    padding: 10px;
     bottom: 40px;
     width: 100%;
+    margin-bottom: 20px;
+    font-family: 'Orbitron', sans-serif;
+    
 }
 #clear {
     position: absolute;
@@ -123,12 +139,13 @@ h3.main-text {
     font-family: 'Orbitron', sans-serif;
     font-size: 1.1rem;
     text-transform: none!important;
-    color: #fd8953;
+    color: #ff4162;
     margin-top: 10%;
     font-weight: bold !important;
     text-align: center;
-   font-size: 60px;
-   letter-spacing: 5px;
+   font-size: 50px;
+   letter-spacing: 3px;
+    margin-top: 68px;
     
 }
 

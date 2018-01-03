@@ -19,7 +19,7 @@
                 <div class="row">
                     <div class="col-lg-8 offset-lg-2 text center">
 
-                        <h3 class="main-text logo-spark"></h3>
+                        <h3 class="main-text logo-spark">
                         <span class="C">C</span>
                         <span class="A">A</span>
                         <span class="N">N</span>
@@ -32,6 +32,7 @@
                         <span class="a2">R</span>
                         <span class="a3">A</span>
                         <span class="a4">W</span>
+ </h3>
               
                     </div>
                 </div>
@@ -41,18 +42,23 @@
 
     <div class="buttons tools">
         <div class="flex">
-            <span class="btn btn-success" id="drawing-rectangle-outline">
+            <span class="btn btn-success" id="drawing-line">
                 <i class="material-icons">brush</i>
             </span>
             <span class="btn btn-primary" id="drawing-rectangle">
                 <i class="material-icons">crop_square</i>
             </span>
-            <span class="btn btn-warning" id="drawing-line">
+            <span class="btn btn-warning" id="drawing-straightline">
                 <i class="material-icons">remove</i>
             </span>
             <span class="btn btn-danger" id="drawing-circle">
                 <i class="material-icons">copyright</i>
             </span>
+            <span class="btn btn-warning" id="drawing-rectangle-outline">
+                <i class="material-icons">border_style</i>
+            </span>
+
+
             <span class="btn btn-info" id="zoom">
                 <i class="material-icons">zoom_in</i>
             </span>
@@ -61,6 +67,9 @@
             </span>
             <span class="btn btn-info" id="fontsize">
                 <i class="material-icons">format_size</i>
+            </span>
+            <span class="btn btn-info" id="eraser">
+                <i class="material-icons">remove_circle_outline</i>
             </span>
 
             <!-- color picker -->
@@ -96,8 +105,17 @@
                 </div>
             </div>
         </div>
-        <input type="file" id="uploadFile">
-        <span class="btn btn-danger btn-block" id="clear">clear</span>
+        
+        
+        <input type="file" class="btn btn-info" value="Input Button" id="uploadFile">
+        
+        
+
+
+
+        <span class="btn btn-danger btn-block" id="clear">
+            <i class="material-icons">pan_tool</i>
+        </span>
 
 
     </div>
