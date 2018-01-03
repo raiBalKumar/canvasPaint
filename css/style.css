@@ -18,8 +18,14 @@
     align-items: flex-start;
     justify-content: center;
 } */
+
+
+
+
+
 .tools {
     border:2px rgb(102, 93, 93) solid;
+    background: #464646;
     position:absolute;
     left: 1%;
     bottom: 2%;
@@ -111,3 +117,95 @@ body{
 
 
 }
+
+
+h3.main-text {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.1rem;
+    text-transform: none!important;
+    color: #fd8953;
+    margin-top: 10%;
+    font-weight: bold !important;
+    text-align: center;
+   font-size: 60px;
+   letter-spacing: 5px;
+    
+}
+
+.logo-spark span {
+    -webkit-animation-name: flash-letter;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 1200ms;
+    -webkit-animation-duration: 1.6s;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-fill-mode: none;
+    transition: all 600ms ease-out 400ms;
+    }
+    
+    .logo-spark .C {
+    -webkit-animation-delay: 0;
+    }
+    
+    .logo-spark .A {
+    -webkit-animation-delay: 30ms;
+    }
+    
+    .logo-spark .N {
+    -webkit-animation-delay: 50ms;
+    }
+    
+    .logo-spark .V {
+    -webkit-animation-delay: 100ms;
+    }
+    
+    .logo-spark .A {
+    -webkit-animation-delay: 150ms;
+    }
+
+    .logo-spark .S {
+        -webkit-animation-delay: 190ms;
+        }
+    
+    
+    .logo-spark .a1 {
+    -webkit-animation-delay: 250ms;
+    }
+    
+    .logo-spark .a2 {
+    -webkit-animation-delay: 300ms;
+    }
+    
+    .logo-spark .a3 {
+    -webkit-animation-delay: 350ms;
+    }
+    
+    .logo-spark .a4 {
+    -webkit-animation-delay: 400ms;
+    }
+    
+    
+    
+    .logo-spark span {
+      opacity: 0.30;
+      letter-spacing: 0.09rem;
+    }
+    
+    
+    @-webkit-keyframes flash-letter {
+        0% {
+            opacity: 0.35;
+        }
+    
+        30% {
+            opacity: 0.9;
+        }
+    
+        40% {
+            opacity: 0.5;
+        }
+    
+        100% {
+            opacity: 0.31;
+        }
+    }
+    

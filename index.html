@@ -6,27 +6,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Paint App</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
-        crossorigin="anonymous">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
     <link href="css/style.css" rel="stylesheet" type='text/css'>
 </head>
 
 <body>
     <section id="banner">
         <div class="text-center">
-            <h3>Drawing Application</h3>
+            <div class="container-fluid vertical-center">
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2 text center">
+
+                        <h3 class="main-text logo-spark"></h3>
+                        <span class="C">C</span>
+                        <span class="A">A</span>
+                        <span class="N">N</span>
+                        <span class="V">V</span>
+                        <span class="A">A</span>
+                        <span class="S">S</span>
+              
+                        &nbsp;
+                        <span class="a1">D</span>
+                        <span class="a2">R</span>
+                        <span class="a3">A</span>
+                        <span class="a4">W</span>
+              
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <div class="buttons tools">
         <div class="flex">
-            <span class="btn btn-success fa fa-square-o icon" id="drawing-rectangle-outline"></span>
-            <span class="btn btn-primary fa fa-square icon" id="drawing-rectangle"></span>
-            <span class="btn btn-info fa fa-paint-brush icon" id="drawing-line"></span>
+            <span class="btn btn-success" id="drawing-rectangle-outline">
+                <i class="material-icons">brush</i>
+            </span>
+            <span class="btn btn-primary" id="drawing-rectangle">
+                <i class="material-icons">crop_square</i>
+            </span>
+            <span class="btn btn-warning" id="drawing-line">
+                <i class="material-icons">remove</i>
+            </span>
+            <span class="btn btn-danger" id="drawing-circle">
+                <i class="material-icons">copyright</i>
+            </span>
+            <span class="btn btn-info" id="zoom">
+                <i class="material-icons">zoom_in</i>
+            </span>
+            <span class="btn btn-info" id="minimize">
+                <i class="material-icons">zoom_out</i>
+            </span>
+            <span class="btn btn-info" id="fontsize">
+                <i class="material-icons">format_size</i>
+            </span>
+
             <!-- color picker -->
 
             <!-- preview element -->
