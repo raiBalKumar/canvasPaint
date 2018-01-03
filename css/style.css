@@ -7,21 +7,8 @@
     bottom: 0px;
     right:0%;
     width: 81%;
-    height: 83.5%;
-  
-  
-    
+    height: 83.5%;    
 }
-/* .flex {
-    display:flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center;
-} */
-
-
-
-
 
 .tools {
     border:2px rgb(102, 93, 93) solid;
@@ -31,11 +18,9 @@
     bottom: 0%;
     width: 19%;
     height: 83.5%;
-  
     margin-right: 60px;
     
 }
-
 
 .row {
 background: #464646;
@@ -69,16 +54,16 @@ margin-bottom: 5px;
     background-color: transparent;
 }
 body{
-    overflow:hidden;
+    /* overflow:hidden; */
 }
-.icon {
+/* .icon {
     width : 30px;
     height: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px; 
-}
+} */
 
 /* colorpicker styles */
 .colorpicker {
@@ -130,11 +115,7 @@ body{
     width: 30px;
     background-color:#000;
     border:1px solid #4da0cf;
-
-
 }
-
-
 h3.main-text {
     font-family: 'Orbitron', sans-serif;
     font-size: 1.1rem;
@@ -148,6 +129,7 @@ h3.main-text {
     margin-top: 68px;
     
 }
+/* end of color picker */
 
 .logo-spark span {
     -webkit-animation-name: flash-letter;
@@ -199,9 +181,7 @@ h3.main-text {
     .logo-spark .a4 {
     -webkit-animation-delay: 400ms;
     }
-    
-    
-    
+     
     .logo-spark span {
       opacity: 0.30;
       letter-spacing: 0.09rem;

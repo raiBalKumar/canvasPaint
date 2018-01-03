@@ -32,7 +32,7 @@
                         <span class="a2">R</span>
                         <span class="a3">A</span>
                         <span class="a4">W</span>
- </h3>
+                        </h3>
               
                     </div>
                 </div>
@@ -41,14 +41,14 @@
     </section>
 
     <div class="buttons tools">
-        <div class="flex">
+        <div>
             <span class="btn btn-success" id="drawing-line">
                 <i class="material-icons">brush</i>
             </span>
             <span class="btn btn-primary" id="drawing-rectangle">
                 <i class="material-icons">crop_square</i>
             </span>
-            <span class="btn btn-warning" id="drawing-straightline">
+            <span class="btn btn-warning" id="straight-line">
                 <i class="material-icons">remove</i>
             </span>
             <span class="btn btn-danger" id="drawing-circle">
@@ -134,6 +134,8 @@
     <script type='text/javascript' src="js/drawing-rectangle.js"></script>
     <script type='text/javascript' src="js/rectangle-outline.js"></script>
     <script type='text/javascript' src="js/color-picker.js"></script>
+    <script type='text/javascript' src="js/erase.js"></script>
+    <script type='text/javascript' src="js/draw-straight-line.js"></script>
     <script type='text/javascript'>
         $('#drawing-rectangle-outline').click(() => {
             currentFunction = new DrawingRectangleOutline(contextReal, contextDraft);
@@ -143,6 +145,12 @@
         });
         $('#drawing-line').click(() => {
             currentFunction = new DrawingLine(contextReal, contextDraft);
+        });
+        $('#straight-line').click(() => {
+            currentFunction = new DrawStraightLine(contextReal, contextDraft);
+        });
+        $('#eraser').click(() => {
+            currentFunction = new Eraser(contextReal);
         });
         currentFunction = new DrawingRectangle(contextReal, contextDraft);  
     </script>
